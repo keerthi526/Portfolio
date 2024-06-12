@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <meta http-equiv="X-UA-Cpmpatable" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cd6b4a15e2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+        
+                
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, i'm <span>Keerthi</span><p>from India</p></h1>
+                </div>
+            </div>
+            
+        </div>
+        <!--------------about--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pic9.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="Sub-title">About Me</h1>
+                        <p>Seeking a beginner role to enhance and explore my technical knowledge gained at Andhra University in the last three years. I hold a B.Tech degree from Andhra University college of Engineering and won the quiz challenge held at the campus.</p>
+                        <p>
+
+                        </p>
+                        <p>Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA, PYTHON, JAVASCRIPT, DATASCIENCE and DATASTRUCTURES. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Data Science</span><br>Working on Data</li>
+                                <li><span>UI/UX</span><br>Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Doing Voice Translation Project </li>
+                                <li><span>2023</span><br>Done DataBase Management System course at Pantech e-Learning</li>
+                                <li><span>2022 - 2023</span><br>Done Full Stack Web Development course at I and T Labs</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - 2024</span><br>B.Tech from Andhra University, Visakhapatnam<br>CGPA - 8.1</li>
+                                <li><span>2018 - 2020</span><br>12th Grade from BIE<br>CGPA - 9.75</li>
+                                <li><span>2018</span><br>10th Grade from SSC <br>CGPA - 9.3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------services------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="Sub-title">My Services</h1>
+                <div class="services-list">
+                    
+    
+                    
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web Design is an approach to designing web content that appears regardless of the resolution governed by the device. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Data Analysis is the process of systematically applying statistical and/or logical techniques to describe and illustrate, condense and recap, and evaluate data. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design is the aim to provide users with an enjoyable and satisfying interaction with digital products. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------portfolio---------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="Sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/pic3.png">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>The App connects you to the talented people around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/pic4.png">
+                        <div class="layer">
+                            <h3>Android</h3>
+                            <p>Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/pic5.png">
+                        <div class="layer">
+                            <h3>Working on Windows</h3>
+                            <p>Microsoft Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------contact------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="Sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>keerthiimmanuel55@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7032297487</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/keerthiimmanuel"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/keerthi_immanuel?igshid=YzVkODRmOTdmMw=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/keerthi-immanuel-ba4461239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Nallamothu_Keerthi.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright ~keerthi made with<i class="fa-solid fa-heart"></i> by using programming languages</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+         <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxcfD-I1XEDM8Mx2bAAlMAu1wQ91Joo1F5DvlTzdaICirZZFy7HGC7RQNPFro4_1Df5/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
